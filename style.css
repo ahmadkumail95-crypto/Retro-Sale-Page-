@@ -1,0 +1,113 @@
+/*//////////////////////////
+// BIKES WEBSITE CSS
+// THE NET NINJA
+//////////////////////////*/
+
+body {
+
+font-family:arial;
+margin:0;
+background:#eee;
+}
+
+#wrapper{
+    width: 100%;
+    margin:0;
+    background:rgb(109, 161, 116);
+
+}
+
+#main-navigation{
+    background:silver;
+    padding:10px;
+
+
+}
+#main-navigation ul {
+    text-align: left;
+    list-style-type: none;
+    margin-right: 10px;}
+
+    #main-navigation li{
+    display: inline-block;
+    margin-left: 20px;
+}
+
+#main-navigation a{
+    color: #290202;
+    text-decoration:double;
+    text-transform: uppercase;
+    font-size: 14px;
+    padding: 6px;
+}
+#main-navigation a.current{
+
+    background:rgb(93, 131, 92);
+    border:4px;
+    border-radius:3px;
+    
+}
+
+#lead-banner img{ width:100%;
+   
+    
+}
+#shop {
+    margin:30px 0;
+    text-align:center;
+    
+
+
+}
+#shop h2.product-name{
+    font-size: 16px;
+    margin-bottom: 0;
+
+
+
+}
+#shop h2.product-name{
+    font-size: 16px;
+    margin-bottom: 0;
+}
+
+#shop span.price{
+    font-size: 58px;
+    display: block;
+}
+#shop a.add-to-bag{
+    display: block;
+    color: #1d010c;
+    text-transform: uppercase;
+    font-size: 12px;
+    text-decoration: none;
+    padding: 10px 0px;
+    border: 9px solid #b34d2e;
+    width: 210px;
+    margin: 20px auto;
+}
+.rating{border:6px solid orange;}
+
+#shop a.add-to-bag:hover{
+    background: #e01440;
+    color: #6132ce;
+}
+
+#footer-banner img{
+    width:100%;
+    opacity: 0.5;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
